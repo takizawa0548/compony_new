@@ -1,0 +1,2 @@
+Select id,first_name,last_name,name,name from employee.employee 
+left outer join employee.m_section on employee.employee.section = employee.m_section.id;
